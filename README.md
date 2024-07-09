@@ -14,10 +14,10 @@ To reproduce these results, follow these steps:
     * Move to the ./Docker_file/ directory of this repo
 
 4.  Build the container:
-    * ```docker build --tag Regulation-of-Extramedullary-Erythropoiesis-by-CD47-and-THBS1 .```
+    * ```docker build --tag nidap-r3 .```
 
-5.  Navidate to the cloned repository directory, Run the conainer by mounting the ./src/ directory of the repo to /tmp/ in the container:
-    * ```docker run -ti -v $(pwd)/src:/mnt Regulation-of-Extramedullary-Erythropoiesis-by-CD47-and-THBS1```
+5.  Navigate to the cloned repository directory, Run the conainer by mounting the ./src/ directory of the repo to /tmp/ in the container:
+    * ```docker run -ti -v $(pwd)/src:/mnt nidap-r3```
     
 6.  Run the following code.
     * ```cd /mnt```
